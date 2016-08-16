@@ -17,6 +17,7 @@
     "express-ejs-layouts": "^2.2.0",
     "method-override": "^2.3.6",
     "morgan": "^1.7.0",
+    "nodemon": "^1.10.0",
     "request": "^2.74.0"
   },
   "devDependencies": {

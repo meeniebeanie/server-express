@@ -12,12 +12,12 @@ module.exports = function(app) {
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept' );
     next();
   });
-  
+
   //Start routing- calling the controller and the required function.. i think?
   // app.get('/', staticPageController.renderHome);
   // app.get('/about', staticPageController.renderAbout);
   // app.get('/contact', staticPageController.renderContact);
-  app.get('/information', informationController.index);
+  app.get('/', informationController.index);
   // app.get('/projects', projectsController.index);
 
 };
