@@ -1,3 +1,9 @@
-language : node_js
-node_js:
-  -node
+language: node_js
+node_js: "-node"
+deploy:
+  provider: heroku
+  api_key:
+    secure: o+uqVwuWP/BZE1biItYlNOdN4HJF1/K405ESvp3dcvEhMFC4smuZoTX/h+eoKFOCdZlIDb8XrGl5uY2O8Zg6/kPVKNopoBv5VtuApnqrVZFX6QL1GCsK2ngHKiMzMcpNFG0PDLcC0x+0Lf8UxwqRvduGdkKQQU5+g3wEXel6vNOvUukB9zXECBT7M4MO9bUwm+jvEIrUu2+iZENj4wNVa6nJEJ7w/Q36KSnZgsYcbVWA7kmVZYXl9tQAVXtGoVVKldKEMEbq5etVazPkgAKYc6kjNu1WirI4ZEfkrWaXBkmisO9WjJ4IalxFHi/hjABTK99Sk4hnJFZAFp9FVuIOr8AOLW19AF0FQwVfV4P8MATLoLBNuKkfd6oIpmPyjbgF6xoDI/B5+sTVOPiuRFFrQCnDqnZeY0uCoSabIRuIvHcBwwkFq5Cf2hUyFPn9nwREqIzwlVogb+6+i49/Sq5wKQnK4CrXZu3Di6sn9kJTSPsGmxh2qmjZzDqJB1tvB+kW4wRII8d+t7t4QrmyJ5tX9WrLEoYGDSdBFYkFjgkIdVd1UCsf6kx8Fbn3BuEu770kS2Qnb1yxAcz0UceLMdSbHWeEdSMQiGovB6a6bmzYDaEt2NE6p8mcazoOUi7doRsCHSuU4+S867mmdvqkyiTRl7Gl5HhCtSbhiJ4vcBxe2Bs=
+  app: guarded-mountain-34245
+  on:
+    repo: meeniebeanie/server-express
